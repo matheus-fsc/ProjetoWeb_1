@@ -1,0 +1,29 @@
+.header{    
+    background-color: var(--Cor-header);
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.texto-header{ 
+    font-size: 2.5rem;
+    margin: 0.5rem 1rem 0.5rem 1.0rem ;
+    color: var(--Cor-texto);    
+}
+
+
+.menu__link {
+    display: flex;
+    gap: 1rem;
+    background-color: #507255;
+    border-radius:  0.5rem;
+}
+
+.header a{
+    text-decoration: none;
+    color: var(--Cor-texto);
+    font-size: 1.5rem;
+}
