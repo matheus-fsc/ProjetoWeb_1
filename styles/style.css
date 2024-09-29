@@ -1,12 +1,27 @@
-@import url(../Estilos/header.css);
+/* Reset geral */
+@import url(../styles/reset.css);
+
+/* Header */
+@import url(../styles/header.css);
+
+/* Body  */
+@import url(../styles/body/body.css);
+@import url(../styles/body/content.css);
+
+/* Footer */
+@import url(../styles/footer/footer.css);
+
+@import url(../styles/alert.css);
 
 :root {
+    --Branco-neve: #FFFAFA;
     --Cor-header: #fffafa;
     --Cor-texto: #000;
     --Cor-texto2: #f03a47;
     --Cor-numeros: ;
     --Cor-bnt: ;
     --Fonte: "Inter";
+    --Border-radius-10: 0.625rem;
 }
 
 body {

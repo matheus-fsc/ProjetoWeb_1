@@ -16,6 +16,11 @@ header {
     font-size: .9rem;
 }
 
+#title-bar img {
+    width: 1rem;
+    height: 1rem;
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
