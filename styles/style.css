@@ -1,9 +1,9 @@
 @import url(../Estilos/header.css);
 
 :root {
-    --Cor-header: #08090A;
-    --Cor-texto: #ddf8e8;
-    --Cor-texto2: #f03a47 ;
+    --Cor-header: #fffafa;
+    --Cor-texto: #000;
+    --Cor-texto2: #f03a47;
     --Cor-numeros: ;
     --Cor-bnt: ;
     --Fonte: "Inter";
@@ -13,5 +13,5 @@ body {
     font-size: 16px;
     font-weight: 500;
     font-family: var(--Fonte), sans-serif;
-    background-color: #507255;
+    background-color: #E0E1DD;
 }

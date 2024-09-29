@@ -4,45 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto</title>
+    <script defer src="./scripts/script.js" type="text/javascript"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Estilos/reset.css">
-    <link rel="stylesheet" href="./Estilos/style.css">
-    <script src="script.js" type="text/javascript" defer></script>
-
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/body.css">
+    <title>CreatorAim</title>
 </head>
 
 <body>
+    <div id="title-bar">
+        <p>A melhor ferramenta para criadores de conteúdo &#128640;</p>
+    </div>
     <header>
-        <nav>
-            <div class="header">
-                <p class="texto-header">Bem-vindo ao Projeto</p>
-                <div class="menu__link">
-                    <a href="#home" >Home</a>
-                    <a href="#about">Sobre</a>
-                    <a href="#services">Serviços</a>
-                    <a href="./contato.html">Contato</a>
-                </div>
+        <div class="container">
+            <div class="logo">
+                <img src="./img/alvo.png" alt="Logo da Empresa">
             </div>
-        <nav>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#">Explorar</a></li>
+                    <li><a href="#">Recursos</a></li>
+                    <li><a href="#">Apoie-nos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="#">Entrar</a></li>
+                    <li><a href="#" id="btn-register">Registrar-se</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <div class="Home">
-        <h1>Seja bem Bem-vindo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, nostrum ducimus? Laudantium nesciunt mollitia incidunt alias ut ab corrupti reiciendis velit, inventore impedit, quisquam quas maiores architecto obcaecati, accusamus dolorem!</p>
-        <image src="./img/gatozoiudo.jpg" alt="Imagem1">
+    <div class="home">
+        <div class="title">
+            <h1>Explore as tendências, evolua e crie seu caminho!</h1>
+        </div>
+        <div class="welcome-div">
+            <div class="blank-div">
+                <div class="welcome-message">
+                    <h1>Bem-vindo à CreatorAim</h1>
+                    <p id="welcome-subtitle">Sua plataforma <span id="gratuita">gratuita</span> para criadores de
+                        conteúdo</p>
+                    <p id="welcome-text">Seja você um iniciante ou um criador experiente, nossa missão é simples:
+                        disponibilizar um
+                        ambiente gratuito e fácil de usar, onde todos possam ter acesso aos melhores recursos para
+                        atingir seus objetivos. Com precisão e foco, ajudamos você a mirar no que realmente importa e
+                        fazer seu conteúdo decolar.</p>
+                </div>
+                <div class="welcome-image"><img src="./img/socialmedia_icons.png" alt=""></div>
+            </div>
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 
-    <div>
+    <!--<div>
         <h1>Sobre</h1>
         <p>Texto sobre a empresa</p>
-    </div>  
-    
-    
-    
-    
-    
+    </div>-->
+
+
+
+
+
 </body>
+
 </html>
