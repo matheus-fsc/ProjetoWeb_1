@@ -1,21 +1,30 @@
-.content-global, .content-global-2 {
+.content-global,
+.content-global-2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.content-global div, .content-global-2 div{
+.content-global div,
+.content-global-2 div {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 30.6rem;
     height: 27.5rem;
     flex-shrink: 0;
-    margin: 3.125rem; 
+    margin: 3.125rem;
     border-radius: 0.25rem;
     background-color: var(--Branco-neve);
     filter: drop-shadow(0rem 0.25rem 0.25rem rgba(0, 0, 0, 0.25));
 }
 
+.img-content1 {
+    width: 90%;
+}
+
+.img-content2 {
+    width: 100%;
+}

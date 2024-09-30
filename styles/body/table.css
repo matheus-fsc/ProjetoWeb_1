@@ -21,6 +21,27 @@
     text-align: center;
 }
 
+.music-table tr {
+    height: 2rem;
+}
+
 .final-row {
     height: 3rem;
+}
+
+.final-row button {
+    width: 5.4375rem;
+    height: 2rem;
+    flex-shrink: 0;
+    border-radius: 0.8125rem;
+    border: 1px solid #EC221F;
+    background: var(--Branco-neve, #FFFAFA);
+    color: #EC221F;
+}
+
+.btn-verdados {
+    width: 5.4375rem;
+    height: 2rem;
+    flex-shrink: 0;
+    border-radius: 0.8125rem;
 }
