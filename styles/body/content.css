@@ -28,3 +28,16 @@
 .img-content2 {
     width: 100%;
 }
+
+@media (max-width: 360px) {
+    .content-global div,
+    .content-global-2 div {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .img-content1,
+    .img-content2 {
+        width: 100%;
+    }
+}

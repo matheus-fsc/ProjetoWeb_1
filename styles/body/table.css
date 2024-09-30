@@ -46,3 +46,32 @@
     flex-shrink: 0;
     border-radius: 0.8125rem;
 }
+
+@media (max-width: 1024px) { /* Defina um tamanho de tela que considere como não desktop */
+    .table-content {
+        display: none; /* Esconde a tabela */
+    }
+}
+
+@media (max-width: 360px) {
+    .table-content table {
+        width: 100%;
+        height: auto;
+    }
+
+    .music-table tr {
+        height: auto;
+    }
+
+    .music-table td,
+    .music-table th {
+        font-size: 0.7rem;
+    }
+
+    .final-row button,
+    .btn-verdados {
+        width: 4.5rem;
+        height: 1.5rem;
+        font-size: 0.7rem;
+    }
+}

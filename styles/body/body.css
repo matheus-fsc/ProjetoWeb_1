@@ -147,3 +147,27 @@
         max-width: 20rem;
     }
 }
+
+@media (max-width: 360px) {
+    .title h1 {
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
+
+    .welcome-message h1 {
+        font-size: 1.25rem;
+    }
+
+    .welcome-message p {
+        font-size: 0.9rem;
+    }
+
+    .blank-div {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .welcome-image img {
+        max-width: 100%;
+    }
+}

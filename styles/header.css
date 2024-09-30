@@ -151,35 +151,62 @@ nav.menu ul li a {
     font-size: 1rem;
 }
 
-
-
-
-
-
-
-
-
 @media (max-width: 1105px) {
     .menu-hamburguer {
         display: flex;
     }
 
     nav.menu ul {
-        display: none;
+        display: flex;
         flex-direction: column;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background-color: var(--Cor-header);
-        width: 100%;
-        text-align: center;
+        position: fixed; /* Mudar para 'fixed' para ficar sobre o conteúdo */
+        top: 0;
+        right: -100%; /* Começar fora da tela */
+        height: 100%; /* Ocupa a altura total da tela */
+        background-color: var(--Cor-header); /* Manter a cor de fundo */
+        width: 75%; /* A gaveta ocupará 75% da tela */
+        transition: right 0.3s ease; /* Adicionar transição suave */
+        z-index: 1000; /* Certificar que o menu está sobreposto */
     }
 
     nav.menu ul.active {
-        display: flex;
+        right: 0; /* Quando ativo, desliza para dentro */
     }
 
     nav.menu ul li {
         margin: 1rem 0;
+    }
+}
+
+
+@media (max-width: 360px) {
+    header {
+        padding: 0.2rem 0;
+    }
+
+    #title-bar p {
+        font-size: 0.7rem;
+    }
+
+    .logo img {
+        width: 12%;
+    }
+
+    nav.menu ul li a {
+        font-size: 0.7rem;
+    }
+
+    #btn-register {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+
+    .menu-hamburguer {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .menu-hamburguer img {
+        width: 60%;
     }
 }

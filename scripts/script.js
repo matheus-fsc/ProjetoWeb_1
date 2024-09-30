@@ -1,15 +1,3 @@
-document.querySelector('.menu-hamburguer').addEventListener('click', function () {
-    var menu = document.querySelector('nav.menu ul');
-    menu.classList.toggle('active');
-});
-
-const loginBtn = document.getElementById('loginBtn');
-const registerBtn = document.getElementById('registerBtn');
-const loginPopup = document.getElementById('loginPopup');
-const registerPopup = document.getElementById('registerPopup');
-const closeLoginPopup = document.getElementById('closeLoginPopup');
-const closeRegisterPopup = document.getElementById('closeRegisterPopup');
-
 loginBtn.onclick = function() {
     loginPopup.style.display = 'block';
 }
@@ -34,3 +22,26 @@ window.onclick = function(event) {
         registerPopup.style.display = 'none';
     }
 }
+
+/* MENU PARA DISPOSITIOS MENORES */
+document.querySelector('.menu-hamburguer').addEventListener('click', function (event) {
+    var menu = document.querySelector('nav.menu ul');
+    menu.classList.toggle('active');
+    
+    event.stopPropagation();
+});
+
+document.addEventListener('click', function (event) {
+    var menu = document.querySelector('nav.menu ul');
+    var isClickInside = menu.contains(event.target) || document.querySelector('.menu-hamburguer').contains(event.target);
+    
+    if (!isClickInside) {
+        menu.classList.remove('active');
+    }
+});
+
+/* FUNÇÃO PARA BOTÕES NÃO FUNCIONANDO */ 
+function emBreve(){
+    alert("Em breve");
+}
+
