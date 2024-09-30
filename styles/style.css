@@ -20,6 +20,9 @@
 /* sobre nós*/
 @import url(../styles/sobrenos/style.css);
 
+/* ViewPort Android */
+@import url(../styles/ViewPortAndroid/style.css);
+
 :root {
     --Branco-neve: #FFFAFA;
     --Cor-header: #fffafa;
@@ -36,4 +39,16 @@ body {
     font-weight: 500;
     font-family: var(--Fonte), sans-serif;
     background-color: #E0E1DD;
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    flex: 1; 
 }

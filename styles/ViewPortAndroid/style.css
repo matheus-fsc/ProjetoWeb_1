@@ -1,0 +1,79 @@
+@media (max-width: 360px) {
+    /* Ajustes no Header */
+    #title-bar p {
+        font-size: 0.7rem;
+    }
+
+    .logo img {
+        width: 10%;
+    }
+
+    nav.menu ul li a {
+        font-size: 0.8rem;
+    }
+
+    #btn-register {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+
+    /* Ajustes para a home */
+    .title h1 {
+        font-size: 1.2rem;
+    }
+
+    .welcome-message h1 {
+        font-size: 1rem;
+    }
+
+    .welcome-message p {
+        font-size: 0.9rem;
+    }
+
+    .welcome-image img {
+        max-width: 15rem;
+    }
+
+    /* Ajustes para o conteúdo */
+    .content-global div,
+    .content-global-2 div {
+        width: 100%;
+        height: auto;
+        margin: 1rem;
+    }
+
+    .img-content1,
+    .img-content2 {
+        width: 100%;
+    }
+
+    /* Tabelas */
+    .table-content table {
+        width: 100%;
+        height: auto;
+    }
+
+    .music-table tr {
+        height: auto;
+    }
+
+    .music-table td,
+    .music-table th {
+        font-size: 0.8rem;
+    }
+
+    /* Ajustes no Footer */
+    footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    footer .logo__footer {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    footer ul {
+        font-size: 0.8rem;
+    }
+}

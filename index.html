@@ -22,7 +22,7 @@
     <section>
         <div id="title-bar">
             <p>A melhor ferramenta para criadores de conteúdo <img src="./img/rocket.gif"
-                    alt="Foguete Emoji, Animated "></p>
+                    alt="Emojo de Foguete"></p>
         </div>
     </section>
     <header>
@@ -40,12 +40,49 @@
                     <li><a href="#">Recursos</a></li>
                     <li><a href="./sobrenos.html">Sobre nós</a></li>
                     <li><a href="#">Contato</a></li>
-                    <li><a href="#">Entrar</a></li>
-                    <li><a href="#" id="btn-register" onclick="mostrarBalaoAlerta()">Registrar-se</a></li>
+                    <li><a href="#" id="loginBtn">Entrar</a></li>
+                    <li><a href="#" id="registerBtn">Registrar-se</a></li>
                 </ul>
             </nav>
         </div>
     </header>
+
+    <!-- TELA DE LOGIN -->
+    <div id="loginPopup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" id="closeLoginPopup">&times;</span>
+            <h2>Entrar</h2>
+            <form id="loginForm">
+                <label for="loginUsername">Usuário:</label>
+                <input class="loginInput" type="text" id="loginUsername" name="username" required><br><br>
+
+                <label for="loginPassword">Senha:</label>
+                <input class="loginInput" type="password" id="loginPassword" name="password" required><br><br>
+
+                <button class="btnLogin" type="submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- TELA DE REGISTRO -->
+    <div id="registerPopup" class="popup">
+        <div class="popup-content">
+            <span class="close-btn" id="closeRegisterPopup">&times;</span>
+            <h2>Registrar-se</h2>
+            <form id="registerForm">
+                <label for="registerUsername">Usuário:</label>
+                <input class="loginInput" type="text" id="registerUsername" name="username" required><br><br>
+
+                <label for="registerEmail">E-mail:</label>
+                <input class="loginInput" type="email" id="registerEmail" name="email" required><br><br>
+
+                <label for="registerPassword">Senha:</label>
+                <input class="loginInput" type="password" id="registerPassword" name="password" required><br><br>
+
+                <button class="btnLogin" type="submit">Registrar-se</button>
+            </form>
+        </div>
+    </div>
 
     <main>
         <section class="home">
@@ -145,6 +182,7 @@
 
     </main>
 
+    
     <footer>
 
         <div class="logo-container">
@@ -156,6 +194,7 @@
             </div>
         </div>
 
+        
         <section>
             <p>Tipos de uso</p>
             <ul>
