@@ -7,11 +7,18 @@
 /* Body  */
 @import url(../styles/body/body.css);
 @import url(../styles/body/content.css);
+@import url(../styles/body/table.css);
 
 /* Footer */
 @import url(../styles/footer/footer.css);
 
 @import url(../styles/alert.css);
+
+/* danger-cats */
+@import url(../styles/easteregg/style.css);
+
+/* sobre nós*/
+@import url(../styles/sobrenos/style.css);
 
 :root {
     --Branco-neve: #FFFAFA;

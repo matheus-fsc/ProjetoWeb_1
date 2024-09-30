@@ -1,0 +1,14 @@
+.sobre-nos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.sobre-nos div {
+    width: 60rem;
+}
+
+.sobre-nos div p {
+    text-align: justify;
+}

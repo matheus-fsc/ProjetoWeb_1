@@ -14,27 +14,28 @@
         rel="stylesheet">
 
     <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">                             
+    <link rel="stylesheet" href="./styles/style.css">
     <title>CreatorAim</title>
 </head>
 
 <body>
     <section>
         <div id="title-bar">
-            <p>A melhor ferramenta para criadores de conteúdo <img src="./img/rocket.gif" alt="Foguete Emoji, Animated "></p>
+            <p>A melhor ferramenta para criadores de conteúdo <img src="./img/rocket.gif"
+                    alt="Foguete Emoji, Animated "></p>
         </div>
     </section>
     <header>
         <div class="container">
             <div class="logo">
-                <img src="./img/alvo.png" alt="Logo da Empresa">
+                <a href="./index.html"><img src="./img/alvo.png" alt="Logo da Empresa"></a>
             </div>
 
             <nav class="menu">
                 <ul>
                     <li><a href="#">Explorar</a></li>
                     <li><a href="#">Recursos</a></li>
-                    <li><a href="#">Apoie-nos</a></li>
+                    <li><a href="./sobrenos.html">Sobre nós</a></li>
                     <li><a href="#">Contato</a></li>
                     <li><a href="#">Entrar</a></li>
                     <li><a href="#" id="btn-register" onclick="mostrarBalaoAlerta()">Registrar-se</a></li>
@@ -52,50 +53,78 @@
                 <div class="blank-div">
                     <div class="welcome-message">
                         <h1>Bem-vindo à CreatorAim</h1>
-                        <p class="welcome-subtitle">Sua plataforma <span class="gratuita">gratuita</span> para criadores de
+                        <p class="welcome-subtitle">Sua plataforma <span class="gratuita">gratuita</span> para criadores
+                            de
                             conteúdo</p>
                         <p class="welcome-text">Seja você um iniciante ou um criador experiente, nossa missão é simples:
-                            disponibilizar um ambiente gratuito e fácil de usar, onde todos possam ter acesso aos melhores
-                            recursos para atingir seus objetivos. Com precisão e foco, ajudamos você a mirar no que realmente
+                            disponibilizar um ambiente gratuito e fácil de usar, onde todos possam ter acesso aos
+                            melhores
+                            recursos para atingir seus objetivos. Com precisão e foco, ajudamos você a mirar no que
+                            realmente
                             importa e fazer seu conteúdo decolar.</p>
                     </div>
                     <div class="welcome-image"><img src="./img/socialmedia_icons.png" alt=""></div>
                 </div>
             </div>
         </section>
-        
-    
+
+
         <section class="content-global">
-        <div></div>
-        <div></div>
+            <div></div>
+            <div></div>
         </section>
         <section class="content-global-2">
-        <div></div>
-        <div></div>
+            <div></div>
+            <div></div>
         </section>
 
-        <section>
-                <table class="popular-table">
-                    <thead>
-                        <tr>
-                            <th>Rank</th>
-                            <th>Lista de Musicas</th>
-                            <th>Trend</th>
-                            <th>Ações</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>
-                                <img />
-                            </td>
-                            <td>
-                                <img />
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
+        <section class="table-content">
+            <table class="music-table">
+                <thead>
+                    <tr>
+                        <th>Popular</th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <select name="date-range" id="date-select">
+                                <option value="7">Ultimos 7 dias+</option>
+                                <option value="30">Ultimos 30 dias+</option>
+                                <option value="90">Ultimos 90 dias+</option>
+                                <option value="365">Ultimo ano+</option>
+                            </select>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Lista de musicas</th>
+                        <th>Trend</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>A</td>
+                        <td>A</td>
+                        <td><button>Ver dados</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>B</td>
+                        <td>B</td>
+                        <td><button>Ver dados</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>C</td>
+                        <td>C</td>
+                        <td><button>Ver dados</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="4" class="final-row"><button>Ver dados</button></td>
+                    </tr>
+                </tbody>
+            </table>
         </section>
 
 
@@ -111,7 +140,7 @@
                 <img src="./img/LinkedIn.png" alt="Logo do LinkedIn">
             </div>
         </div>
-    
+
         <section>
             <p>Tipos de uso</p>
             <ul>
@@ -121,17 +150,19 @@
                 <li>Para organizações</li>
             </ul>
         </section>
-    
+
         <section>
             <p>Explorar</p>
             <ul>
                 <li>Recursos</li>
-                <li>Gatos perigosos</li>
+                <a href="./danger.html" class="danger-cats">
+                    <li>Gatos perigosos</li>
+                </a>
                 <li>FAQ</li>
                 <li>Contato</li>
             </ul>
         </section>
-    
+
         <section>
             <p>Legal</p>
             <ul>
@@ -142,6 +173,7 @@
             </ul>
         </section>
     </footer>
-    
+
 </body>
+
 </html>

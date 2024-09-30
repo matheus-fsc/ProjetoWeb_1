@@ -1,0 +1,26 @@
+.table-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-content table {
+    width: 64.375rem;
+    height: 21.875rem;
+    flex-shrink: 0;
+    background: var(--Branco-neve, #FFFAFA);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.music-table tr,
+.music-table td,
+.music-table th {
+    /* border: 1px solid #000; */
+    align-content: center;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.final-row {
+    height: 3rem;
+}
